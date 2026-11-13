@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Tiết 1 buổi sáng bắt đầu và kết thúc vào khung giờ nào?",
+    "expected_answer": "Bắt đầu từ 7h00 và kết thúc vào 7h50",
+    "gold_page": 9,
+    "evidence_quote": "Tiết 1 7h00 : 7h50",
+    "filter": null,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p9_fix_0",
+        "page": 9,
+        "score": 0.6553,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2518,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "8\n\n2. Thời gian học tập\nBuổi sáng Buổi chiều Buổi tối\nTiết 1 7h00 : 7h50 Tiết 6 12h30 : 13h20 Tiết 11 17h30 : 18h20\nTiết 2 7h55 : 8h45 Tiết 7 13h25 : "
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p18_fix_4",
+        "page": 18,
+        "score": 0.531,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 2148,
+          "chunk_index": 4,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "được bố trí tại tầng 1 Nhà B.\nThời gian mở cửa phục vụ bạn đọc các ngày trong tuần:\n+ Sáng: từ 08h00 đến 12h00\n+ Chiều: từ 13h00 đến 17h00\nCác phòng p"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p11_fix_2",
+        "page": 11,
+        "score": 0.3963,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2203,
+          "chunk_index": 2,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "thúc học phần\n(Trích Đi ều 12 Quyết đ ịnh s ố 1999/QĐ-TĐHHN ngày 02/7/2025 của Hi ệu trư ởng\nTrường Đại học TNMT Hà Nội).\n6.1. Cuối học kỳ, trường tổ "
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Sinh viên phải tham dự tối thiểu bao nhiêu phần trăm số giờ học của từng bài thực hành để được tổng kết học phần?",
+    "expected_answer": "Tối thiểu 70% số giờ học của từng bài",
+    "gold_page": 10,
+    "evidence_quote": "Đối với các học phần thực hành: Sinh viên tham dự đủ 70% số giờ học c ủa từng bài",
+    "filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p9_fix_5",
+        "page": 9,
+        "score": 0.8137,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2518,
+          "chunk_index": 5,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "ố tiết học của học phần và số giờ học của từng bài thực hành\nđược tham dự kỳ thi kết thúc học phần.\nb. Sinh viên vắng mặt trên lớp quá 30% số tiết học"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p10_fix_0",
+        "page": 10,
+        "score": 0.7813,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2094,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "9\n\ntham dự kỳ thi kết thúc học phần, nhận điểm F là điểm học phần và phải đăng ký học lại\nhọc phần đó hoặc học đổi sang học phần khác (đối với học phầ"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p17_fix_3",
+        "page": 17,
+        "score": 0.7716,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2424,
+          "chunk_index": 3,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "c, có tính mới, tính sáng tạo và\ngóp phần ứng dụng kiến thức đã học vào thực tiễn;\n4. Mỗi đề tài do 01 sinh viên chịu trách nhiệm thực hiện chính, số "
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Điểm tổng kết môn Giáo dục quốc phòng và an ninh được làm tròn tới mấy chữ số thập phân và có quy đổi sang điểm chữ không?",
+    "expected_answer": "Làm tròn đến hai chữ số thập phân và không tính kết quả học tập theo điểm chữ",
+    "gold_page": 14,
+    "evidence_quote": "làm tròn đến hai chữ số thập phân; không tính k ết quả học tập môn học GDQP-AN theo điểm chữ",
+    "filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p12_fix_2",
+        "page": 12,
+        "score": 0.7163,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 1399,
+          "chunk_index": 2,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "ến 7,9\nC+: từ 6,5 đến 6,9\nC: từ 5,5 đến 6,4\nD+: từ 5,0 đến 5,4\nD: từ 4,0 đến 4,9\nb. Loại không đạt: F: dưới 4,0\nc. Loại đạt không phân mức, áp dụng ch"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p39_fix_4",
+        "page": 39,
+        "score": 0.6908,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2654,
+          "chunk_index": 4,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "phần Giáo dục quốc phòng: ≥ 5.0 (hệ 10);\n+ Học phần Giáo dục thể chất: ≥ 4.0 (hệ 10);\n+ Các học phần tính điểm trung bình chung: ≥ 4.0 (hệ 10);\n- Có s"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p24_fix_0",
+        "page": 24,
+        "score": 0.6424,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2808,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "23\n\nTT Nội dung các tiêu chí đánh giá Điểm\nĐiểm cộng (+) mục 2 (Khung điểm từ 0 đến 25 điểm)\na) Ý thức chấp hành các văn bản chỉ đạo của ngành, của cơ"
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Để đủ điều kiện xét tốt nghiệp, điểm trung bình tích lũy của toàn khóa học tối thiểu phải đạt bao nhiêu?",
+    "expected_answer": "Từ 2,00 trở lên",
+    "gold_page": 16,
+    "evidence_quote": "Điểm trung bình tích lũy của toàn khóa học đạt từ 2,00 trở lên.",
+    "filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p16_fix_3",
+        "page": 16,
+        "score": 0.8331,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2666,
+          "chunk_index": 3,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "oàn thành nghĩa\nvụ với Nhà trường.\n12. Cấp bằng tốt nghiệp, bảo lưu kết quả học tập, chuyển chương trình đào tạo\nvà chuyển loại hình đào tạo\n12.1. Bằn"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p16_fix_4",
+        "page": 16,
+        "score": 0.8034,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2666,
+          "chunk_index": 4,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "trung bình tích lũy từ 2,50 đến 3,19.\nd. Loại trung bình: Điểm trung bình tích lũy từ 2,00 đến 2,49.\n12.2. Hạng tốt nghiệp của những sinh viên có kết "
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p10_fix_3",
+        "page": 10,
+        "score": 0.7923,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2094,
+          "chunk_index": 3,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "h phần đánh giá: điểm quá\ntrình chiếm trọng số 50% và điểm đánh giá cuối kỳ chiếm trọng số 50%.\nĐiểm đánh giá quá trình và đi ểm đánh giá cu ối kỳ lấy"
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Sinh viên tham gia thực hiện đề tài nghiên cứu khoa học có được làm chủ nhiệm đề tài cùng cấp nào khác không?",
+    "expected_answer": "Không được là chủ nhiệm của đề tài nghiên cứu khoa học cùng cấp nào khác",
+    "gold_page": 18,
+    "evidence_quote": "Không là chủ nhiệm của đề tài nghiên cứu khoa học cùng cấp nào khác.",
+    "filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p18_fix_3",
+        "page": 18,
+        "score": 0.788,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 2148,
+          "chunk_index": 3,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "khoa\nhọc do người học thực hiện theo quy định hiện hành;\n- Được hỗ trợ kinh phí th ực hiện đề tài nghiên c ứu khoa h ọc theo quy đ ịnh của\nTrường;\n- Đ"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p29_fix_3",
+        "page": 29,
+        "score": 0.7794,
+        "metadata": {
+          "section": "quan_ly_sinh_vien",
+          "char_count": 2345,
+          "chunk_index": 3,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "hung h ọc tập theo thang điểm 10 cao hơn đ ể làm căn\ncứ lựa chọn thủ khoa tốt nghiệp khoá học/chuyên ngành học.\n- Ưu tiên những học viên có đề tài ngh"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p28_fix_5",
+        "page": 28,
+        "score": 0.7773,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2631,
+          "chunk_index": 5,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "ặc có đề tài\nnghiên cứu khoa học, sáng kiến được ứng dụng vào thực tế mang lại lợi ích cho cộng đồng\nxã hội, sinh viên vượt khó trong học tập, sinh vi"
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "filter_metadata",
+    "question": "Nếu độc giả chỉ muốn tra cứu tài liệu số trên phần mềm thư viện thì cần chọn thẻ nào?",
+    "expected_answer": "Chọn thẻ 'Bộ sưu tập số'",
+    "gold_page": 20,
+    "evidence_quote": "Nếu chỉ muốn tìm tài liệu số thì chọn thẻ “Bộ sưu tập số”.",
+    "filter": {
+      "section": "thu_vien"
+    },
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p20_fix_0",
+        "page": 20,
+        "score": 0.7462,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 1290,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "19\n\n\nNếu chỉ muốn tìm tài liệu số thì chọn thẻ “Bộ sưu tập số”.\nNếu chỉ muốn tìm tài liệu in thì chọn thẻ “Bộ sưu tập tài liệu in”.\nCách 2. Tìm tài li"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p21_fix_1",
+        "page": 21,
+        "score": 0.6528,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 1158,
+          "chunk_index": 1,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "đến bàn đọc\nvà đọc tại thư viện.\nBước 3. Bạn đọc để tài liệu đọc xong tại vị trí quy định.\nBước 4. Bạn đọc nhận lại thẻ tại quầy thủ thư và cặp, túi h"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p19_fix_1",
+        "page": 19,
+        "score": 0.6186,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 803,
+          "chunk_index": 1,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "ập Websi te Trung tâm Thư viện và Công nghệ thông tin tại địa chỉ:\nhttps://elib.hunre.edu.vn/pages/cms/default.aspx  để tìm tài liệu bản in và và bản "
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "filter_metadata",
+    "question": "Trong thư viện, sinh viên có thể đọc toàn bộ file tài liệu nội sinh trên máy tính tại phòng nào?",
+    "expected_answer": "Tại Phòng Đọc Sinh viên",
+    "gold_page": 22,
+    "evidence_quote": "Tại Thư viện trường, Bạn đọc có thể đọc toàn bộ file tài liệu nội sinh trên máy tính của Thư viện tại Phòng Đọc Sinh viên.",
+    "filter": {
+      "section": "thu_vien"
+    },
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p22_fix_0",
+        "page": 22,
+        "score": 0.8959,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 127,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "21\n\n\nTại Thư viện trường, Bạn đọc có thể đọc toàn bộ file tài liệu nội sinh trên máy tính\ncủa Thư viện tại Phòng Đọc Sinh viên."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p21_fix_0",
+        "page": 21,
+        "score": 0.6486,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 1158,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "20\n\n- Nếu tài liệu đó trong kho đã h ết, Bạn đọc sẽ không được gia hạn thêm và ph ải làm\nthủ tục trả tài liệu.\nBước 3. Bạn đọc nhận lại thẻ sinh viên "
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p20_fix_0",
+        "page": 20,
+        "score": 0.617,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 1290,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "19\n\n\nNếu chỉ muốn tìm tài liệu số thì chọn thẻ “Bộ sưu tập số”.\nNếu chỉ muốn tìm tài liệu in thì chọn thẻ “Bộ sưu tập tài liệu in”.\nCách 2. Tìm tài li"
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Điều kiện về điểm thi và điểm tổng kết các học phần lần thứ nhất để được xét học bổng khuyến khích học tập là gì?",
+    "expected_answer": "Không có điểm dưới 4.0 theo thang điểm 10, học phần GDTC đạt từ 4.0 và GDQP-AN đạt từ 5.0 trở lên",
+    "gold_page": 28,
+    "evidence_quote": "Không có điểm thi và đi ểm tổng kết học phần tính điểm lần thứ nhất các học phần trong năm xét dưới 4.0 theo thang điểm 10",
+    "filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p40_fix_3",
+        "page": 40,
+        "score": 0.8298,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2303,
+          "chunk_index": 3,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "ành của Bộ Giáo\ndục và Đào tạo.\nĐiểm TBCHT của kỳ xét học bổng được tính theo kết quả thi kết thúc học phần ở lần\nthi thứ nhất.\nd. Trình tự xét, cấp h"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p15_fix_4",
+        "page": 15,
+        "score": 0.68,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2561,
+          "chunk_index": 4,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "ai chương trình\nlà thời gian tối đa quy đ ịnh cho chương trình th ứ nhất, quy định tại khoản 1 Điều 6 của\nQuy định này. Khi học chương trình thứ hai, "
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p40_fix_0",
+        "page": 40,
+        "score": 0.6704,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2303,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "39\n\n- Xét, cấp HBKKHT theo thứ tự từ loại học bổng xuất sắc, học bổng giỏi, học bổng\nkhá cho đến khi hết quỹ học bổng của khóa, ngành đã được phân bổ."
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Hình thức kỷ luật Cảnh cáo được áp dụng đối với người học trong những trường hợp nào?",
+    "expected_answer": "Áp dụng đối với người học đã bị khiển trách mà tái phạm hoặc vi phạm mức độ nhẹ có tính chất thường xuyên hoặc mới vi phạm lần đầu nhưng mức độ tương đối nghiêm trọng",
+    "gold_page": 30,
+    "evidence_quote": "Cảnh cáo: áp dụng đối với người học đã bị khiển trách mà tái phạm hoặc vi phạm ở mức độ nhẹ nhưng hành vi vi phạm có tính chất thường xuyên",
+    "filter": null,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p30_fix_0",
+        "page": 30,
+        "score": 0.8077,
+        "metadata": {
+          "section": "quan_ly_sinh_vien",
+          "char_count": 1948,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "29\n\n2. Cảnh cáo: áp dụng đối với người học đã bị khiển trách mà tái phạm hoặc vi phạm ở\nmức độ nhẹ nhưng hành vi vi phạm có tính chất thường xuyên hoặ"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p29_fix_4",
+        "page": 29,
+        "score": 0.7843,
+        "metadata": {
+          "section": "quan_ly_sinh_vien",
+          "char_count": 2345,
+          "chunk_index": 4,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "khác có liên quan;\n- Không bị kỷ luật từ mức khiển trách trở lên trong toàn khóa học;\n- Tốt nghiệp sớm hoặc đúng thời gian học tập chuẩn toàn khóa the"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p14_fix_1",
+        "page": 14,
+        "score": 0.7726,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2702,
+          "chunk_index": 1,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "hư sau:\n9.1. Cảnh báo học tập:\nCảnh báo học tập là hình thức cảnh báo cho sinh viên về kết quả học tập yếu  kém của\nbản thân, đồng thời là cơ sở để Nh"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Khi đăng nhập hệ thống thông tin sinh viên lần đầu, cấu trúc mật khẩu mặc định của sinh viên được quy định như thế nào?",
+    "expected_answer": "Là ngày tháng năm sinh định dạng ddmmyyyy",
+    "gold_page": 46,
+    "evidence_quote": "Ví dụ sinh viên có mã là: 11223355 và sinh ngày 31/12/2003 thì khi đó tên đăng nh ập sẽ là: 11223355 và mật khẩu là: 31122003",
+    "filter": null,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p46_fix_0",
+        "page": 46,
+        "score": 0.6701,
+        "metadata": {
+          "section": "hoc_bong_chinh_sach",
+          "char_count": 534,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "45\n\n\nVí dụ sinh viên có mã là: 11223355 và sinh ngày 31/12/2003 thì khi đó tên đăng nh ập\nsẽ là: 11223355 và mật khẩu là: 31122003\nLưu ý: Nhớ tích chọ"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p45_fix_0",
+        "page": 45,
+        "score": 0.6037,
+        "metadata": {
+          "section": "hoc_bong_chinh_sach",
+          "char_count": 602,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "44\n\n2. Quy trình thực hiện\n2.1. Trực tiếp\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGhi chú: Người học không phải trực tiếp đi các đơn vị trực thuộc Trường để giải "
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p38_fix_3",
+        "page": 38,
+        "score": 0.5425,
+        "metadata": {
+          "section": "quan_ly_sinh_vien",
+          "char_count": 2432,
+          "chunk_index": 3,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "du.vn và truy cập theo đường dẫn sinh viên/biểu mẫu).\n- Sinh viên nộp hồ sơ xin hưởng TCXH tại Phòng Công tác sinh viên.\n- Sinh viên thuộc đối tượng q"
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Tiết 6 của buổi chiều bắt đầu từ mấy giờ và kết thúc lúc mấy giờ?",
+    "expected_answer": "Từ 12h30 đến 13h20",
+    "gold_page": 9,
+    "evidence_quote": "Tiết 6 12h30 : 13h20",
+    "filter": null,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p9_fix_0",
+        "page": 9,
+        "score": 0.6637,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2518,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "8\n\n2. Thời gian học tập\nBuổi sáng Buổi chiều Buổi tối\nTiết 1 7h00 : 7h50 Tiết 6 12h30 : 13h20 Tiết 11 17h30 : 18h20\nTiết 2 7h55 : 8h45 Tiết 7 13h25 : "
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p18_fix_4",
+        "page": 18,
+        "score": 0.5358,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 2148,
+          "chunk_index": 4,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "được bố trí tại tầng 1 Nhà B.\nThời gian mở cửa phục vụ bạn đọc các ngày trong tuần:\n+ Sáng: từ 08h00 đến 12h00\n+ Chiều: từ 13h00 đến 17h00\nCác phòng p"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p11_fix_2",
+        "page": 11,
+        "score": 0.4173,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2203,
+          "chunk_index": 2,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "thúc học phần\n(Trích Đi ều 12 Quyết đ ịnh s ố 1999/QĐ-TĐHHN ngày 02/7/2025 của Hi ệu trư ởng\nTrường Đại học TNMT Hà Nội).\n6.1. Cuối học kỳ, trường tổ "
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Sinh viên có được xét học bổng khuyến khích học tập không nếu trong năm xét bị kỷ luật mức khiển trách?",
+    "expected_answer": "Không được xét (quy định: Không bị kỷ luật từ mức khiển trách trở lên trong năm xét)",
+    "gold_page": 28,
+    "evidence_quote": "Không bị kỷ luật từ mức khiển trách trở lên trong năm xét.",
+    "filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p39_fix_3",
+        "page": 39,
+        "score": 0.7233,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2654,
+          "chunk_index": 3,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "cấp hỗ trợ chi phí học tập: Hội đồng họp xét danh sách lần cuối.\nPhòng Công tác sinh viên thay mặt Hội đồng thảo quyết định trình Hiệu trưởng phê duyệ"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p17_fix_1",
+        "page": 17,
+        "score": 0.6999,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2424,
+          "chunk_index": 1,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "c điều kiện còn thiếu và đề nghị xét công nhận tốt nghiệp.\n12.6. Sinh viên không tốt nghiệp nếu có nguyện vọng, Nhà trường cấp giấy chứng nhận\nvề các "
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p29_fix_4",
+        "page": 29,
+        "score": 0.6853,
+        "metadata": {
+          "section": "quan_ly_sinh_vien",
+          "char_count": 2345,
+          "chunk_index": 4,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "khác có liên quan;\n- Không bị kỷ luật từ mức khiển trách trở lên trong toàn khóa học;\n- Tốt nghiệp sớm hoặc đúng thời gian học tập chuẩn toàn khóa the"
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "filter_metadata",
+    "question": "Trong trường hợp nào thì bạn đọc tại thư viện không được gia hạn thêm tài liệu mượn về nhà?",
+    "expected_answer": "Nếu tài liệu đó trong kho đã hết",
+    "gold_page": 21,
+    "evidence_quote": "Nếu tài liệu đó trong kho đã h ết, Bạn đọc sẽ không được gia hạn thêm và ph ải làm thủ tục trả tài liệu.",
+    "filter": {
+      "section": "thu_vien"
+    },
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p21_fix_0",
+        "page": 21,
+        "score": 0.6615,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 1158,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "20\n\n- Nếu tài liệu đó trong kho đã h ết, Bạn đọc sẽ không được gia hạn thêm và ph ải làm\nthủ tục trả tài liệu.\nBước 3. Bạn đọc nhận lại thẻ sinh viên "
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p20_fix_2",
+        "page": 20,
+        "score": 0.6446,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 1290,
+          "chunk_index": 2,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "hạm).\nBước 3. Bạn đọc nhận lại thẻ sinh viên và có th ể tiếp tục mượn tài li ệu khác nếu có\nnhu cầu.\n3.3. Gia hạn tài liệu mượn về nhà (Phòng Đọc - Mư"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p22_fix_0",
+        "page": 22,
+        "score": 0.577,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 127,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "21\n\n\nTại Thư viện trường, Bạn đọc có thể đọc toàn bộ file tài liệu nội sinh trên máy tính\ncủa Thư viện tại Phòng Đọc Sinh viên."
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Mã ngành đào tạo của ngành Bất động sản tại trường là gì?",
+    "expected_answer": "7340116",
+    "gold_page": 8,
+    "evidence_quote": "1 Bất động sản 7340116",
+    "filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p24_fix_2",
+        "page": 24,
+        "score": 0.5841,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2808,
+          "chunk_index": 2,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "(Thực hiện đầy đủ, đúng thời gian Kế hoạch lấy ý kiến phản hồi của người học). 4\n\nTham gia đầy đủ, tích cực các buổi sinh hoạt lớp, sinh hoạt chi đoàn"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p14_fix_5",
+        "page": 14,
+        "score": 0.5202,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2702,
+          "chunk_index": 5,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "ôi học, nhà trường\nsẽ thông báo trả về địa phương nơi sinh viên có hộ khẩu thường trú. Những sinh viên thuộc\ndiện bị buộc thôi học được quyền xin xét "
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p27_fix_4",
+        "page": 27,
+        "score": 0.503,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2179,
+          "chunk_index": 4,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "hân công làm cán bộ lớp, cán bộ đoàn và các tổ chức khác trong Trường\nhoạt động tốt, đồng thời:\n- Không vi phạm quy định của Trường và các quy định kh"
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Điều kiện về tình trạng kỷ luật tại thời điểm xét tốt nghiệp là gì?",
+    "expected_answer": "Không bị truy cứu trách nhiệm hình sự hoặc không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập",
+    "gold_page": 16,
+    "evidence_quote": "Tại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự hoặc không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập.",
+    "filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p29_fix_4",
+        "page": 29,
+        "score": 0.7532,
+        "metadata": {
+          "section": "quan_ly_sinh_vien",
+          "char_count": 2345,
+          "chunk_index": 4,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "khác có liên quan;\n- Không bị kỷ luật từ mức khiển trách trở lên trong toàn khóa học;\n- Tốt nghiệp sớm hoặc đúng thời gian học tập chuẩn toàn khóa the"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p16_fix_0",
+        "page": 16,
+        "score": 0.7523,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2666,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "15\n\na. Tại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự hoặc không đang\ntrong thời gian bị kỷ luật ở mức đình chỉ học tập.\nb. Tích l"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p15_fix_5",
+        "page": 15,
+        "score": 0.6782,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2561,
+          "chunk_index": 5,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "2 năm trư ớc thời điểm xét tốt nghiệp\nchương trình thứ hai.\nNội dung chi tiết tại Quy định đào tạo đại học hệ chính quy học cùng lúc hai chương\ntrình "
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "filter_metadata",
+    "question": "Nếu chỉ muốn tìm tài liệu in trên cổng thông tin thư viện thì bạn đọc chọn thẻ nào?",
+    "expected_answer": "Chọn thẻ 'Bộ sưu tập tài liệu in'",
+    "gold_page": 20,
+    "evidence_quote": "Nếu chỉ muốn tìm tài liệu in thì chọn thẻ “Bộ sưu tập tài liệu in”.",
+    "filter": {
+      "section": "thu_vien"
+    },
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p20_fix_0",
+        "page": 20,
+        "score": 0.782,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 1290,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "19\n\n\nNếu chỉ muốn tìm tài liệu số thì chọn thẻ “Bộ sưu tập số”.\nNếu chỉ muốn tìm tài liệu in thì chọn thẻ “Bộ sưu tập tài liệu in”.\nCách 2. Tìm tài li"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p21_fix_1",
+        "page": 21,
+        "score": 0.684,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 1158,
+          "chunk_index": 1,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "đến bàn đọc\nvà đọc tại thư viện.\nBước 3. Bạn đọc để tài liệu đọc xong tại vị trí quy định.\nBước 4. Bạn đọc nhận lại thẻ tại quầy thủ thư và cặp, túi h"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p19_fix_1",
+        "page": 19,
+        "score": 0.6817,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 803,
+          "chunk_index": 1,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "ập Websi te Trung tâm Thư viện và Công nghệ thông tin tại địa chỉ:\nhttps://elib.hunre.edu.vn/pages/cms/default.aspx  để tìm tài liệu bản in và và bản "
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Tiết học thứ 11 của buổi tối bắt đầu lúc mấy giờ và kết thúc lúc mấy giờ?",
+    "expected_answer": "Bắt đầu từ 17h30 đến 18h20",
+    "gold_page": 9,
+    "evidence_quote": "Tiết 11 17h30 : 18h20",
+    "filter": null,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p9_fix_0",
+        "page": 9,
+        "score": 0.6,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2518,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "8\n\n2. Thời gian học tập\nBuổi sáng Buổi chiều Buổi tối\nTiết 1 7h00 : 7h50 Tiết 6 12h30 : 13h20 Tiết 11 17h30 : 18h20\nTiết 2 7h55 : 8h45 Tiết 7 13h25 : "
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p18_fix_4",
+        "page": 18,
+        "score": 0.4157,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 2148,
+          "chunk_index": 4,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "được bố trí tại tầng 1 Nhà B.\nThời gian mở cửa phục vụ bạn đọc các ngày trong tuần:\n+ Sáng: từ 08h00 đến 12h00\n+ Chiều: từ 13h00 đến 17h00\nCác phòng p"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p11_fix_2",
+        "page": 11,
+        "score": 0.3899,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2203,
+          "chunk_index": 2,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "thúc học phần\n(Trích Đi ều 12 Quyết đ ịnh s ố 1999/QĐ-TĐHHN ngày 02/7/2025 của Hi ệu trư ởng\nTrường Đại học TNMT Hà Nội).\n6.1. Cuối học kỳ, trường tổ "
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Trường hợp sinh viên không tham dự đủ 70% số giờ học của từng bài thực hành thì bị xử lý ra sao?",
+    "expected_answer": "Nhận điểm F là điểm học phần và phải đăng ký học lại học phần đó hoặc đổi sang học phần khác",
+    "gold_page": 10,
+    "evidence_quote": "nhận điểm F là điểm học phần và phải đăng ký học lại học phần đó hoặc học đổi sang học phần khác",
+    "filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p9_fix_5",
+        "page": 9,
+        "score": 0.815,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2518,
+          "chunk_index": 5,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "ố tiết học của học phần và số giờ học của từng bài thực hành\nđược tham dự kỳ thi kết thúc học phần.\nb. Sinh viên vắng mặt trên lớp quá 30% số tiết học"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p10_fix_0",
+        "page": 10,
+        "score": 0.7121,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2094,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "9\n\ntham dự kỳ thi kết thúc học phần, nhận điểm F là điểm học phần và phải đăng ký học lại\nhọc phần đó hoặc học đổi sang học phần khác (đối với học phầ"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p23_fix_4",
+        "page": 23,
+        "score": 0.6965,
+        "metadata": {
+          "section": "quan_ly_sinh_vien",
+          "char_count": 2132,
+          "chunk_index": 4,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "không lý do, đi học muộn 3 lần/kỳ, bỏ tiết giữa giờ (10 tiết/ kỳ). - 3/1 lỗi\nĐược lớp, khoa cử tham dự các cuộc thi học thuật, hoạt động ngoại khóa mà"
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Hình thức kỷ luật đình chỉ học tập có thời hạn áp dụng cho sinh viên trong trường hợp nào?",
+    "expected_answer": "Áp dụng đối với người học đang trong thời gian bị cảnh cáo mà vẫn vi phạm kỷ luật hoặc vi phạm nghiêm trọng",
+    "gold_page": 30,
+    "evidence_quote": "Đình chỉ học tập có thời hạn: áp dụng đối với những người học đang trong thời gian bị cảnh cáo mà v ẫn vi ph ạm kỷ luật hoặc vi ph ạm nghiêm tr ọng",
+    "filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p34_fix_1",
+        "page": 34,
+        "score": 0.8121,
+        "metadata": {
+          "section": "quan_ly_sinh_vien",
+          "char_count": 2293,
+          "chunk_index": 1,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "n từ cảnh cáo trở lên được lưu vào hồ sơ quản lý sinh\nviên và thông báo cho gia đình sinh viên. Trư ờng hợp sinh viên bị kỷ luật mức đình chỉ học tập\n"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p30_fix_1",
+        "page": 30,
+        "score": 0.8112,
+        "metadata": {
+          "section": "quan_ly_sinh_vien",
+          "char_count": 1948,
+          "chunk_index": 1,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "hưởng án treo. Tùy\ntừng trường hợp cụ thể, Hiệu trưởng Nhà trư ờng căn c ứ vào các quy đ ịnh hiện hành đ ể\nquyết định thời hạn đình chỉ học tập theo c"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p11_fix_2",
+        "page": 11,
+        "score": 0.7298,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2203,
+          "chunk_index": 2,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "thúc học phần\n(Trích Đi ều 12 Quyết đ ịnh s ố 1999/QĐ-TĐHHN ngày 02/7/2025 của Hi ệu trư ởng\nTrường Đại học TNMT Hà Nội).\n6.1. Cuối học kỳ, trường tổ "
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "filter_metadata",
+    "question": "Thủ tục xin xác nhận đăng ký làm thẻ vé tháng xe buýt cho sinh viên thuộc lĩnh vực công tác nào?",
+    "expected_answer": "Lĩnh vực công tác sinh viên",
+    "gold_page": 42,
+    "evidence_quote": "I LĨNH VỰC CÔNG TÁC SINH VIÊN\n1 Xác nhận Đăng ký làm thẻ vé tháng xe buýt",
+    "filter": {
+      "section": "quan_ly_sinh_vien"
+    },
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "so_tay_sinh_vien_2025_p42_fix_0",
+        "page": 42,
+        "score": 0.7089,
+        "metadata": {
+          "section": "thu_vien",
+          "char_count": 1810,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": true,
+        "text_preview": "41\n\nPHẦN VIII: MỘT SỐ QUY TRÌNH, THỦ TỤC CHO NGƯỜI HỌC\n1. Danh mục các thủ tục\nTT Thủ tục Hồ sơ Thời hạn giải quyết Biểu mẫu số Ghi chú\nI LĨNH VỰC CÔN"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "so_tay_sinh_vien_2025_p14_fix_5",
+        "page": 14,
+        "score": 0.5253,
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2702,
+          "chunk_index": 5,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "ôi học, nhà trường\nsẽ thông báo trả về địa phương nơi sinh viên có hộ khẩu thường trú. Những sinh viên thuộc\ndiện bị buộc thôi học được quyền xin xét "
+      },
+      {
+        "rank": 3,
+        "chunk_id": "so_tay_sinh_vien_2025_p44_fix_0",
+        "page": 44,
+        "score": 0.509,
+        "metadata": {
+          "section": "hoc_bong_chinh_sach",
+          "char_count": 1375,
+          "chunk_index": 0,
+          "chunk_strategy": "fixed_size"
+        },
+        "is_hit": false,
+        "text_preview": "43\n\nTT Thủ tục Hồ sơ Thời hạn giải quyết Biểu mẫu số Ghi chú\nhợp có lý do chính đáng\nnhư: nộp hồ sơ xin việc,\nxin học bổng, chuyển\ntrường, kết nạp Đản"
+      }
+    ]
+  }
+]

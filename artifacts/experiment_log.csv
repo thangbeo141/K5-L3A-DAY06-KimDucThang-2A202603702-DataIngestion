@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,document_id;source;page;section,none,paraphrase-multilingual-MiniLM-L12-v2,Cửa sổ cố định dễ triển khai nhưng dễ cắt cụt câu và giảm tính mạch lạc,7/15,9/15,3/5,4/5,207 chunks; 7.92s; chi phí $0; coherence 0.8/2
+B,by_paragraph,max_800,0,document_id;source;page;section,none,paraphrase-multilingual-MiniLM-L12-v2,Cắt theo đoạn văn bảo toàn ngữ cảnh hoàn chỉnh giúp tăng độ chính xác top-1,9/15,9/15,3/5,3/5,180 chunks; 5.91s; chi phí $0; coherence 2.0/2; Hit@1 dev tăng lên 60%
+C,by_paragraph,max_800,0,document_id;source;page;section,section,paraphrase-multilingual-MiniLM-L12-v2,Filter metadata loại bỏ nhiễu ngoài phạm vi nhưng nhạy cảm với lỗi gán nhãn ranh giới,9/15,9/15,2/5,2/5,180 chunks; 5.91s; chi phí $0; 100% filter compliance; lộ trade-off lỗi biên

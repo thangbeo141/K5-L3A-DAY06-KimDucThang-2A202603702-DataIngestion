@@ -8,40 +8,43 @@ Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, r�
 |---|---|---|
 | Tối thiểu **30 trang nội dung** | Tối thiểu **3 cấu hình** | Tối thiểu **20 câu hỏi** |
 
-## Bắt đầu nhanh
+---
 
-Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
+## Thông tin bài nộp
+- **Học viên**: Kim Đức Thắng - MSSV: 2A202603702 - Lớp: L3A
+- **Corpus**: Sổ tay Sinh viên Năm học 2025 - 2026 (54 trang nội dung hữu ích, 87.650 ký tự)
+- **Báo cáo chi tiết**: [report/individual/2A202603702_KimDucThang.md](report/individual/2A202603702_KimDucThang.md)
+- **Nhật ký thí nghiệm**: [artifacts/experiment_log.csv](artifacts/experiment_log.csv)
+- **Tập Benchmark**: [benchmark/questions.json](benchmark/questions.json) (15 dev, 5 test)
+- **Manifest**: [data/manifest.json](data/manifest.json)
+- **Kết quả & Trace**: [results/](results/)
 
-## 1. Xây pipeline
+---
 
-![Đọc tài liệu, chuẩn hóa, chia chunk, tạo vector, lưu và kiểm tra](assets/ingestion-pipeline.svg)
+## Hướng dẫn tái lập (Quickstart)
 
-Chọn tài liệu được phép sử dụng; giữ **ID tài liệu, nguồn, trang/vị trí** và metadata phù hợp. Dùng embedding model thật qua API hoặc chạy local; lưu và truy xuất bằng pgvector, Qdrant, Chroma hoặc một store tương đương.
+### 1. Khởi động Docker PostgreSQL + pgvector
+```bash
+cd starter
+# Sao chép file cấu hình môi trường nếu chưa có
+cp .env.example .env     # (Windows PowerShell: Copy-Item .env.example .env)
+docker-compose -p day6_student_starter up -d --wait
+python scripts/check_setup.py
+```
 
-## 2. So sánh và đánh giá
+### 2. Cài đặt thư viện Python
+```bash
+pip install -r requirements.txt
+```
 
-![Ba chiến lược được đánh giá trên cùng corpus và benchmark dev/test](assets/benchmark-workflow.svg)
+### 3. Chạy toàn bộ Pipeline và Benchmark
+```bash
+python -m src.run
+```
 
-Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **15 câu dev / 5 câu test** trước khi chạy; chọn cấu hình trên dev, rồi đánh giá test sau khi cố định. Mỗi câu hỏi cần có đoạn bằng chứng và trang nguồn; thiết kế bộ câu hỏi và đánh giá theo [BENCHMARK.md](BENCHMARK.md).
-
-Đánh giá theo năm khía cạnh: **độ chính xác truy xuất**, **tính mạch lạc của chunk**, **tính hữu dụng của metadata**, **chất lượng grounding** và **tác động của chiến lược dữ liệu**. Giải thích lựa chọn bằng kết quả, ví dụ lỗi và các đánh đổi.
-
-## 3. Chuẩn bị bài nộp
-
-1. Chạy pipeline và lưu cấu hình, kết quả top-3, trace cùng nhãn đánh giá thủ công.
-2. Điền [thông tin học viên](STUDENT.md), [nhật ký thí nghiệm](artifacts/experiment_log.csv) và bản sao [mẫu báo cáo cá nhân](report/individual/MSSV_HoTen.md).
-3. Kiểm tra mã nguồn, cách chạy, manifest dữ liệu và checklist trong [SUBMISSION.md](SUBMISSION.md).
-
-## Tài liệu hướng dẫn
-
-| Bạn cần tìm | Tài liệu |
-|---|---|
-| Setup baseline PostgreSQL + pgvector | [starter/README.md](starter/README.md) |
-| Các bước làm và cách tính chỉ số | [GUIDE.md](GUIDE.md) |
-| Tiến độ trong 4 giờ | [CHECKPOINTS.md](CHECKPOINTS.md) |
-| Năm tiêu chí benchmark và bộ câu hỏi | [BENCHMARK.md](BENCHMARK.md) |
-| Tiêu chí chấm điểm | [RUBRIC.md](RUBRIC.md) |
-| Quy tắc sử dụng dữ liệu, AI và API | [RULES.md](RULES.md) |
-| Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
-
-[data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+Lệnh trên sẽ tự động:
+1. Đọc và chuẩn hóa 54 trang PDF.
+2. Sinh chunk và nhúng vector (384 chiều) cho 3 chiến lược: Strategy A (Fixed-size 500/50), Strategy B (Paragraph 800), Strategy C (Paragraph + Filter Metadata).
+3. Nạp và lưu trữ vào pgvector.
+4. Chạy truy xuất Top-3 cho toàn bộ 20 câu hỏi Benchmark (15 dev, 5 test).
+5. Đánh giá Hit@1, Evidence Hit@3 và xuất trace ra thư mục `results/`.
