@@ -1,12 +1,5 @@
 # Báo cáo cá nhân — Day 6: Data Ingestion Engineering
 
-- **Họ và tên**: Kim Đức Thắng
-- **MSSV**: 2A202603702
-- **Lớp**: L3A
-- **Chủ đề**: Kỹ thuật nạp dữ liệu (Data Ingestion Pipeline) và Đánh giá Benchmark cho RAG
-- **Repo bài nộp**: `K5-L3A-DAY06-KimDucThang-2A202603702-DataIngestion`
-
----
 
 ## 1. Dữ liệu và pipeline
 
