@@ -1,0 +1,507 @@
+{
+  "source_id": "so_tay_sinh_vien_2025",
+  "title": "Sổ tay Sinh viên Năm học 2025 - 2026",
+  "institution": "Trường Đại học Tài nguyên và Môi trường Hà Nội",
+  "source_path_or_url": "https://hunre.edu.vn/download/news/2025/12/01/134659_1.Sổ tay SV_2025.pdf",
+  "license_or_permission": "Tài liệu công khai lưu hành nội bộ và hướng dẫn sinh viên theo quy định của nhà trường",
+  "accessed_at": "2026-11-13",
+  "format": "PDF",
+  "version": "2025-2026",
+  "total_physical_pages": 61,
+  "content_pages_count": 54,
+  "total_content_characters": 87650,
+  "page_counting_rule": "Loại bỏ trang bìa (trang 1) và mục lục/lời mở đầu (trang 2-5). Chỉ tính các trang từ 6 đến 61 có nội dung quy chế, hướng dẫn thực tế với số ký tự > 50.",
+  "filter_metadata_fields": {
+    "section": "Chuyên mục nội dung (dao_tao, thu_vien, quan_ly_sinh_vien, hoc_bong_chinh_sach, ky_tuc_xa)"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "char_count": 224,
+      "category": "cover",
+      "is_content_page": false,
+      "section": "bia",
+      "preview": "BỘ NÔNG NGHIỆP VÀ MÔI TRƯỜNG  TRƯỜNG ĐẠI HỌC TÀI NGUYÊN VÀ MÔI TRƯỜNG HÀ NỘI                              SỔ TAY SINH VI"
+    },
+    {
+      "page_number": 2,
+      "char_count": 5552,
+      "category": "toc",
+      "is_content_page": false,
+      "section": "muc_luc",
+      "preview": "1    MỤC LỤC  LỜI NÓI ĐẦU .............................................................................................."
+    },
+    {
+      "page_number": 3,
+      "char_count": 1979,
+      "category": "toc",
+      "is_content_page": false,
+      "section": "muc_luc",
+      "preview": "2    PHẦN VIII: MỘT SỐ QUY TRÌNH, THỦ TỤC CHO NGƯỜI HỌC ............................. 40  1. Danh mục các thủ tục ......"
+    },
+    {
+      "page_number": 4,
+      "char_count": 2374,
+      "category": "toc",
+      "is_content_page": false,
+      "section": "muc_luc",
+      "preview": "3    LỜI NÓI ĐẦU  Các bạn tân sinh viên thân mến!  Để hoàn thành tốt việc học tập tại Trường Đại học Tài nguyên và Môi t"
+    },
+    {
+      "page_number": 5,
+      "char_count": 1168,
+      "category": "toc",
+      "is_content_page": false,
+      "section": "muc_luc",
+      "preview": "4    PHẦN I: GIỚI THIỆU VỀ TRƯỜNG  1. Ngày thành lập Trường          2. Logo Trường        -   https://www.facebook.com/"
+    },
+    {
+      "page_number": 6,
+      "char_count": 1,
+      "category": "content",
+      "is_content_page": false,
+      "section": "tong_quan",
+      "preview": "5"
+    },
+    {
+      "page_number": 7,
+      "char_count": 46,
+      "category": "content",
+      "is_content_page": false,
+      "section": "tong_quan",
+      "preview": "6    9. Sự hình thành và phát triển của Trường"
+    },
+    {
+      "page_number": 8,
+      "char_count": 965,
+      "category": "content",
+      "is_content_page": true,
+      "section": "tong_quan",
+      "preview": "7    PHẦN II: HỌC TẬP CỦA SINH VIÊN    1. Các chương tình đào tạo của Trường   TT Tên ngành Mã ngành  1 Bất động sản 734"
+    },
+    {
+      "page_number": 9,
+      "char_count": 2576,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "8    2. Thời gian học tập  Buổi sáng Buổi chiều Buổi tối  Tiết 1 7h00 : 7h50 Tiết 6 12h30 : 13h20 Tiết 11 17h30 : 18h20 "
+    },
+    {
+      "page_number": 10,
+      "char_count": 2134,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "9    tham dự kỳ thi kết thúc học phần, nhận điểm F là điểm học phần và phải đăng ký học lại  học phần đó hoặc học đổi sa"
+    },
+    {
+      "page_number": 11,
+      "char_count": 2256,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "10    TT Điểm đánh giá Trọng số của điểm  đánh giá Thành phần đánh giá  1 Điểm số 1  (do GV hướng dẫn đánh giá)  0.2  Đi"
+    },
+    {
+      "page_number": 12,
+      "char_count": 1442,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "11    Năm đào tạo  Số tín chỉ tích lũy  Từ khóa tuyển sinh  2021 trở về trước  Các khóa tuyển sinh  2022 và 2023  Các kh"
+    },
+    {
+      "page_number": 13,
+      "char_count": 2712,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "12    8.2. Vi ệc x ếp lo ại các m ức đi ểm A, B +, B, C +, C, D +, D, F, P đư ợc áp d ụng cho   các trường hợp sau đây: "
+    },
+    {
+      "page_number": 14,
+      "char_count": 2745,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "13    Kết quả học tập môn học GDQP-AN là điểm trung bình chung tổng các điểm học phần,  làm tròn đến hai chữ số thập phâ"
+    },
+    {
+      "page_number": 15,
+      "char_count": 2606,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "14    đào tạo và cho bảo lưu kết quả học tập đối với từng trường hợp cụ thể. Thời hạn nhận đơn  xin xét chuyển xuống học"
+    },
+    {
+      "page_number": 16,
+      "char_count": 2705,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "15    a. Tại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự hoặc không đang  trong thời gian bị kỷ luật "
+    },
+    {
+      "page_number": 17,
+      "char_count": 2472,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "16    12.5. Sinh viên đã hết thời gian học tập tối đa theo quy định nhưng chưa đủ điều kiện  tốt nghiệp do chưa hoàn thà"
+    },
+    {
+      "page_number": 18,
+      "char_count": 2196,
+      "category": "content",
+      "is_content_page": true,
+      "section": "thu_vien",
+      "preview": "17    - Không vi phạm các quy định của pháp luật về sở hữu trí tuệ, hoạt động khoa học  và công nghệ và các quy định khá"
+    },
+    {
+      "page_number": 19,
+      "char_count": 826,
+      "category": "content",
+      "is_content_page": true,
+      "section": "thu_vien",
+      "preview": "18    Thủ tục đăng ký Bạn đọc: sử dụng Thẻ Sinh viên và làm thủ tục đăng ký tại Phòng Đọc  - Mượn hoặc Phòng Đọc Sinh vi"
+    },
+    {
+      "page_number": 20,
+      "char_count": 1316,
+      "category": "content",
+      "is_content_page": true,
+      "section": "thu_vien",
+      "preview": "19      Nếu chỉ muốn tìm tài liệu số thì chọn thẻ “Bộ sưu tập số”.  Nếu chỉ muốn tìm tài liệu in thì chọn thẻ “Bộ sưu tậ"
+    },
+    {
+      "page_number": 21,
+      "char_count": 1182,
+      "category": "content",
+      "is_content_page": true,
+      "section": "thu_vien",
+      "preview": "20    - Nếu tài liệu đó trong kho đã h ết, Bạn đọc sẽ không được gia hạn thêm và ph ải làm  thủ tục trả tài liệu.  Bước "
+    },
+    {
+      "page_number": 22,
+      "char_count": 131,
+      "category": "content",
+      "is_content_page": true,
+      "section": "thu_vien",
+      "preview": "21      Tại Thư viện trường, Bạn đọc có thể đọc toàn bộ file tài liệu nội sinh trên máy tính  của Thư viện tại Phòng Đọc"
+    },
+    {
+      "page_number": 23,
+      "char_count": 2182,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "22    PHẦN V: RÈN LUYỆN CỦA SINH VIÊN  1. Tiêu chí đánh giá điểm rèn luyện của sinh viên  TT Nội dung các tiêu chí đánh "
+    },
+    {
+      "page_number": 24,
+      "char_count": 2872,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "23    TT Nội dung các tiêu chí đánh giá Điểm  Điểm cộng (+) mục 2 (Khung điểm từ 0 đến 25 điểm)   a) Ý thức chấp hành cá"
+    },
+    {
+      "page_number": 25,
+      "char_count": 3042,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "24    TT Nội dung các tiêu chí đánh giá Điểm   Không mắc vào các tệ nạn xã hội.  4   Tham gia các hoạt động tuyên truyền"
+    },
+    {
+      "page_number": 26,
+      "char_count": 2740,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "25    TT Nội dung các tiêu chí đánh giá Điểm  5. Đánh giá v ề ý thức và k ết quả khi tham gia công tác cán b ộ lớp, các "
+    },
+    {
+      "page_number": 27,
+      "char_count": 2224,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "26    - Yếu: 35 - 49 điểm  - Kém: < 35 điểm  3. Sử dụng kết quả rèn luyện  - Xét khen thưởng, kỷ luật  - Xét Học bổng KK"
+    },
+    {
+      "page_number": 28,
+      "char_count": 2676,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "27    - Không có điểm thi và đi ểm tổng kết học phần tính điểm lần thứ nhất các học phần  trong năm xét dưới 4.0 theo th"
+    },
+    {
+      "page_number": 29,
+      "char_count": 2389,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "28    - Không vi phạm quy định của Trường và các quy định khác có liên quan;  - Tốt nghiệp đứng đầu ngành/lĩnh vực đào t"
+    },
+    {
+      "page_number": 30,
+      "char_count": 2026,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "29    2. Cảnh cáo: áp dụng đối với người học đã bị khiển trách mà tái phạm hoặc vi phạm ở  mức độ nhẹ nhưng hành vi vi p"
+    },
+    {
+      "page_number": 31,
+      "char_count": 2032,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "30      TT Nội dung vi phạm Khiển trách Cảnh cáo  Đình  chỉ có  thời  hạn  Buộc  thôi  học  Ghi chú  6  Tổ chức học, thi"
+    },
+    {
+      "page_number": 32,
+      "char_count": 1874,
+      "category": "content",
+      "is_content_page": true,
+      "section": "thu_vien",
+      "preview": "31      TT Nội dung vi phạm Khiển trách Cảnh cáo  Đình  chỉ có  thời  hạn  Buộc  thôi  học  Ghi chú  17 Hoạt động mại dâ"
+    },
+    {
+      "page_number": 33,
+      "char_count": 1948,
+      "category": "content",
+      "is_content_page": true,
+      "section": "thu_vien",
+      "preview": "32      TT Nội dung vi phạm Khiển trách Cảnh cáo  Đình  chỉ có  thời  hạn  Buộc  thôi  học  Ghi chú  29 Vi phạm quy chế "
+    },
+    {
+      "page_number": 34,
+      "char_count": 2371,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "33      TT Nội dung vi phạm Khiển trách Cảnh cáo  Đình  chỉ có  thời  hạn  Buộc  thôi  học  Ghi chú  khống, xúc ph ạm uy"
+    },
+    {
+      "page_number": 35,
+      "char_count": 1734,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "34    TT Đối tượng Mức miễn giảm Hồ sơ phải nộp                    3  - Mồ côi cha hoặc mẹ và người còn lại bị tuyên  bố"
+    },
+    {
+      "page_number": 36,
+      "char_count": 1448,
+      "category": "content",
+      "is_content_page": true,
+      "section": "hoc_bong_chinh_sach",
+      "preview": "35    TT Đối tượng Mức miễn giảm Hồ sơ phải nộp  5 Sinh viên là ngư ời dân t ộc thi ểu số thuộc hộ nghèo và hộ cận nghèo"
+    },
+    {
+      "page_number": 37,
+      "char_count": 2285,
+      "category": "content",
+      "is_content_page": true,
+      "section": "hoc_bong_chinh_sach",
+      "preview": "36    TT Đối tượng Mức miễn giảm Hồ sơ phải nộp  8  Sinh viên là con cán bộ, công nhân, viên ch ức  mà cha hoặc mẹ bị ta"
+    },
+    {
+      "page_number": 38,
+      "char_count": 2501,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "37    TT Đối tượng Mức trợ cấp Hồ sơ phải nộp  chính thức, không có nguồn  chu cấp thường xuyên.  - Xác nh ận c ủa UBND "
+    },
+    {
+      "page_number": 39,
+      "char_count": 2719,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "38    Đối tượng Mức trợ cấp Hồ sơ phải nộp  Sinh viên người dân  tộc thi ểu s ố thuộc  hộ nghèo, h ộ cận  nghèo theo quy"
+    },
+    {
+      "page_number": 40,
+      "char_count": 2351,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "39    - Xét, cấp HBKKHT theo thứ tự từ loại học bổng xuất sắc, học bổng giỏi, học bổng  khá cho đến khi hết quỹ học bổng"
+    },
+    {
+      "page_number": 41,
+      "char_count": 1144,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "40    - Công khai danh sách dự kiến sinh viên được cấp HBKKHT đến Khoa/Bộ môn quản  lý sinh viên và sinh viên trong trư "
+    },
+    {
+      "page_number": 42,
+      "char_count": 1863,
+      "category": "content",
+      "is_content_page": true,
+      "section": "thu_vien",
+      "preview": "41    PHẦN VIII: MỘT SỐ QUY TRÌNH, THỦ TỤC CHO NGƯỜI HỌC  1. Danh mục các thủ tục  TT Thủ tục Hồ sơ Thời hạn giải quyết "
+    },
+    {
+      "page_number": 43,
+      "char_count": 2111,
+      "category": "content",
+      "is_content_page": true,
+      "section": "dao_tao",
+      "preview": "42    TT Thủ tục Hồ sơ Thời hạn giải quyết Biểu mẫu số Ghi chú  II LĨNH VỰC ĐÀO TẠO  1 Xin bảo lưu kết quả học tập  - Đơ"
+    },
+    {
+      "page_number": 44,
+      "char_count": 1444,
+      "category": "content",
+      "is_content_page": true,
+      "section": "hoc_bong_chinh_sach",
+      "preview": "43    TT Thủ tục Hồ sơ Thời hạn giải quyết Biểu mẫu số Ghi chú  hợp có lý do chính đáng  như: nộp hồ sơ xin việc,  xin h"
+    },
+    {
+      "page_number": 45,
+      "char_count": 659,
+      "category": "content",
+      "is_content_page": true,
+      "section": "hoc_bong_chinh_sach",
+      "preview": "44    2. Quy trình thực hiện  2.1. Trực tiếp                                                          Ghi chú: Người học"
+    },
+    {
+      "page_number": 46,
+      "char_count": 545,
+      "category": "content",
+      "is_content_page": true,
+      "section": "hoc_bong_chinh_sach",
+      "preview": "45      Ví dụ sinh viên có mã là: 11223355 và sinh ngày 31/12/2003 thì khi đó tên đăng nh ập  sẽ là: 11223355 và mật khẩ"
+    },
+    {
+      "page_number": 47,
+      "char_count": 745,
+      "category": "content",
+      "is_content_page": true,
+      "section": "hoc_bong_chinh_sach",
+      "preview": "46      Danh mục thủ tục: Khi chọn danh mục này, sinh viên s ẽ được xem toàn b ộ các thủ  tục mà nhà trường cung cấp để "
+    },
+    {
+      "page_number": 48,
+      "char_count": 1342,
+      "category": "content",
+      "is_content_page": true,
+      "section": "hoc_bong_chinh_sach",
+      "preview": "47    Hoặc gõ từ cần tìm bất kỳ vào ô chọn thủ tục khi đó ph ần mềm sẽ lọc ra các th ủ tục  liên quan để sinh viên chọn "
+    },
+    {
+      "page_number": 49,
+      "char_count": 167,
+      "category": "content",
+      "is_content_page": true,
+      "section": "hoc_bong_chinh_sach",
+      "preview": "48      Quy ước về màu: Màu xanh là đã tiếp nhận, màu đỏ là cần bổ sung hồ sơ, màu vàng  là đang xử lý ở đơn vị liên qua"
+    },
+    {
+      "page_number": 50,
+      "char_count": 950,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "49    PHẦN IX: HOẠT ĐỘNG ĐOÀN THỂ CỦA SINH VIÊN    Đoàn thanh niên là t ổ chức chính trị - xã hội của thanh niên, sinh v"
+    },
+    {
+      "page_number": 51,
+      "char_count": 194,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "50                        Đêm chung kết cuộc thi HUNRE BEAUTY 2018                    Cuộc thi tiếng hát sinh viên năm 2"
+    },
+    {
+      "page_number": 52,
+      "char_count": 227,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "51         Nhảy Flastmost vì ngày Môi trường năm 2020  2. Phong trào sinh viên tình nguyên.                            H"
+    },
+    {
+      "page_number": 53,
+      "char_count": 281,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "52    3. Các câu lạc bộ/đội sinh viên trong trường                  CLB Hiến máu tình nguyện  Fanpage: https://www.faceb"
+    },
+    {
+      "page_number": 54,
+      "char_count": 259,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "53                    CLB nhạc cụ HIC  Fanpage: https://www.facebook.com/clbnhaccuhic               Câu lạc bộ DANCE (HD"
+    },
+    {
+      "page_number": 55,
+      "char_count": 278,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "54                  Câu lạc bộ võ thuật  Fanpage: https://www.facebook.com/Vothuat.Tainguyenmoitruong    Đội sinh viên t"
+    },
+    {
+      "page_number": 56,
+      "char_count": 262,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "55      Đội sinh viên tình nguyện Khoa Kinh tế TNMT  Fanpage: https://www.facebook.com/ev.hunre    Đội sinh viên tình ng"
+    },
+    {
+      "page_number": 57,
+      "char_count": 1101,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "56    PHẦN X  ĐỊA CHỈ CÁC ĐƠN VỊ TRONG TRƯỜNG      1. Lãnh đạo trường  1.1. Chủ tịch Hội đồng trường, Bí thư đảng ủy: GS"
+    },
+    {
+      "page_number": 58,
+      "char_count": 1112,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "57    Website: http://kttv.hunre.edu.vn  2.5. Khoa Kinh tế   Trưởng khoa: PGS.TS. Nguyễn Hoản  Văn phòng làm việc: B407,"
+    },
+    {
+      "page_number": 59,
+      "char_count": 1180,
+      "category": "content",
+      "is_content_page": true,
+      "section": "quan_ly_sinh_vien",
+      "preview": "58    2.12. Bộ môn Biến đổi khí hậu và Phát triển bền vững  Phụ trách bộ môn: PGS.TS. Hoàng Ngọc Khắc  Văn phòng làm việ"
+    },
+    {
+      "page_number": 60,
+      "char_count": 1346,
+      "category": "content",
+      "is_content_page": true,
+      "section": "thu_vien",
+      "preview": "59    3.5. Phòng Khảo thí và Đảm bảo chất lượng giáo dục  Trưởng phòng: TS. Nguyễn Thị Minh Nguyệt  Văn phòng làm việc: "
+    },
+    {
+      "page_number": 61,
+      "char_count": 762,
+      "category": "content",
+      "is_content_page": true,
+      "section": "thu_vien",
+      "preview": "60    Địa chỉ: TX. Bỉm Sơn, Tp Thanh Hóa, tỉnh Thanh Hóa  Email: txbien@hunre.edu.vn  6. Các tổ chức đoàn thể:  6.1. Văn"
+    }
+  ]
+}

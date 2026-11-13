@@ -1,8 +1,8 @@
 # Thông tin học viên
 
-- Họ và tên:
-- MSSV:
-- Lớp: L3A / L3B / khác:
-- Chủ đề và corpus:
-- Repo bài nộp:
-- Commit chốt bài:
+- Họ và tên: Kim Đức Thắng
+- MSSV: 2A202603702
+- Lớp: L3A
+- Chủ đề và corpus: Sổ tay sinh viên năm học 2025 - 2026 (54 trang nội dung hữu ích, 87.650 ký tự, định dạng PDF)
+- Repo bài nộp: K5-L3A-DAY06-KimDucThang-2A202603702-DataIngestion
+- Commit chốt bài: Pending
